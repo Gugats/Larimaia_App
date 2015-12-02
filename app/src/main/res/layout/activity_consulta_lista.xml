@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff3ff92">
+
+    <ListView
+        android:id="@+id/lista_consulta"
+        android:layout_width="match_parent"
+        android:layout_height="399dp"></ListView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar novo"
+        android:id="@+id/btn_cadastrar"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btn_lista_voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"/>
+
+</LinearLayout>

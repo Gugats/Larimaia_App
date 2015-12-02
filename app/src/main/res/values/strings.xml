@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LarimaiaApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cadastro_cliente">CadastroCliente</string>
+    <string name="title_activity_consulta_cliente">ConsultaCliente</string>
+    <string name="title_activity_cadastro_produto">CadastroProduto</string>
+    <string name="title_activity_consulta_produto">ConsultaProduto</string>
+    <string name="title_activity_cadastro_tipo_evento">CadastroTipoEvento</string>
+    <string name="title_activity_consulta_tipo_evento">ConsultaTipoEvento</string>
+    <string name="title_activity_cadastro_pedido">CadastroPedido</string>
+    <string name="title_activity_consulta_pedido">ConsultaPedido</string>
+</resources>

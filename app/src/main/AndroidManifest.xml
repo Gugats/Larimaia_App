@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.ucdb.larimaiaapp" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        //Cadastro de cada objeto
+        <activity
+            android:name=".activities.ActivityProduto"
+            android:label="@string/title_activity_cadastro_produto" >
+        </activity>
+        <activity
+            android:name=".activities.ActivityCliente"
+            android:label="@string/title_activity_cadastro_cliente" >
+        </activity>
+        <activity
+            android:name=".activities.ActivityTipoEvento"
+            android:label="@string/title_activity_cadastro_tipo_evento" >
+        </activity>
+        <activity
+            android:name=".activities.ActivityPedido"
+            android:label="@string/title_activity_cadastro_pedido" >
+        </activity>
+
+        //Consulta de cada objeto
+        <activity
+            android:name=".activities.ActivityConsultaProduto"
+            android:label="@string/title_activity_consulta_produto" >
+        </activity>
+        <activity
+            android:name=".activities.ActivityConsultaCliente"
+            android:label="@string/title_activity_consulta_cliente" >
+        </activity>
+        <activity
+            android:name=".activities.ActivityConsultaTipoEvento"
+            android:label="@string/title_activity_consulta_tipo_evento" >
+        </activity>
+
+        //Classe Main do Android
+        <activity android:name=".activities.ActivityCadastros">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
